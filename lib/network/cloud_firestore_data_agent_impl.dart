@@ -87,10 +87,10 @@ class CloudFirestoreDataAgentImpl extends SocialDataAgent{
          credential.user?..updateDisplayName(newUser.userName))
         .then((user){
     print("register cloud firestore complete ========================");
-          newUser.id = user?.uid ?? "";
-          // final User? user = auth.currentUser;
-          //   print(user?.uid);
-          //   newUser.id = user?.uid;
+          //newUser.id = user?.uid ?? "";
+          final User? user = auth.currentUser;
+            print(user?.uid);
+            newUser.id = user?.uid;
           _addNewUser(newUser);
         });
   }

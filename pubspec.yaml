@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.14.0 <3.0.0"
+  sdk: ">=2.17.1 <3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -39,19 +39,19 @@ dependencies:
   firebase_database: ^8.0.1
   json_serializable: ^6.2.0
   json_annotation: ^4.5.0
-  cloud_firestore: ^2.5.4
+  cloud_firestore: ^3.1.17
   provider: ^6.0.3
-  firebase_storage: ^10.1.0
+  firebase_storage: ^10.2.17
   firebase_auth: ^3.3.19
   image_picker: ^0.8.4+4
-  loading_indicator: ^3.0.2
+  loading_indicator: ^3.1.0
   firebase_messaging: ^11.4.1
   flutter_local_notifications: ^9.5.3+1
   firebase_analytics: ^9.1.9
   firebase_crashlytics: ^2.8.1
   firebase_performance: ^0.8.0+13
   firebase_remote_config: ^2.0.8
-  firebase_in_app_messaging: ^0.6.0+5
+  firebase_in_app_messaging: ^0.6.0+15
   firebase_installations: ^16.3.6
   google_ml_kit: ^0.11.0
 

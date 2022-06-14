@@ -14,8 +14,8 @@ class AuthenticationModelImpl extends AuthenticationModel{
 
   AuthenticationModelImpl._internal();
 
-  //SocialDataAgent dataAgent = RealTimeDatabaseDataAgentImpl();
-   SocialDataAgent dataAgent = CloudFirestoreDataAgentImpl();
+  SocialDataAgent dataAgent = RealTimeDatabaseDataAgentImpl();
+   //SocialDataAgent dataAgent = CloudFirestoreDataAgentImpl();
 
 
       @override

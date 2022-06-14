@@ -22,8 +22,8 @@ SocialModelImpl._internal();
     final AuthenticationModel authModel = AuthenticationModelImpl();
 
 
-      //SocialDataAgent dataAgent = RealTimeDatabaseDataAgentImpl();
-      SocialDataAgent dataAgent = CloudFirestoreDataAgentImpl();
+      SocialDataAgent dataAgent = RealTimeDatabaseDataAgentImpl();
+      //SocialDataAgent dataAgent = CloudFirestoreDataAgentImpl();
 
   @override
   Stream<List<NewsFeedVO>> getNewsFeed(){
